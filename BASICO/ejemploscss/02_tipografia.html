@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Multani&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Noto Sans Multani", sans-serif;
+        }
+    .fuente-ejemplo-1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic; /*cambio de estilo de fuente*/
+    }
+    .fuente-ejemplo-2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px; /*unidad en px*/
+    }
+    .fuente-tam-px {
+        font-size: 16px;
+        /*unidad absoluta*/
+    }
+    .fuente-tam-em {
+    font-size: 1em;
+    }
+    .fuente-tam-em span{
+    font-size: 2em;
+    /*unidad relativa*/
+    }
+    .fuente-grosor{
+        font-weight: 100;
+
+    }
+    .fuente-inter-peque{
+    line-height: 1;
+    }
+    .fuente-inter-normal{
+    line-height: 1.6;
+    }
+    .fuente-inter-grande{
+    line-height: 2.5;
+    }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Ejemplo de tipografia en CSS</h1>
+   </header> 
+   <main>
+    <section>
+    <h2>tipo de fuente: font family</h2>
+    <p class="fuente-ejemplo-1"
+     >tipo de fuente</p>
+    <p class="fuente-ejemplo-2">
+        tipo de fuente </p>
+    </section>
+    <section>
+        <h2>Tamaño fuente</h2>
+        <p class="fuente-tam-px">texto en pixxeles</p>
+        <p class="fuente-tam-em">texto en em</p>
+    </section>
+    <section>
+        <h2>grosor de fuente: font-weight</h2>
+        <p class="fuente-grosor">El valor normal del grosor de la fuente es 400. Font-weight define el grosor con un valor minimo de 100 y maximo a 900.</p>
+    </section>
+    <section>
+        <h2>altura de linea(interineado): line-height</h2>
+        <p class="fuente-inter-peque">Interlineado pequeño. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Molestiae repellat veniam culpa inventore repellendus laborum.
+             Esse nesciunt itaque quis veritatis, quam possimus quod ratione excepturi magnam placeat, nemo molestias. Assumenda!</p>
+        <p class="fuente-inter-normal">Interlineado normal. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tenetur ratione repellendus adipisci.
+             Impedit tempora atque inventore delectus ex laborum, molestias voluptates? Sunt, tempora. Voluptatem veritatis deleniti magnam placeat non.</p>
+        <p class="fuente-inter-grande">Interlineado grande. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, commodi fugit aspernatur nesciunt hic tempora non excepturi!
+             Fugiat iste praesentium, placeat blanditiis ea, quidem id ducimus aspernatur earum quas non.</p>
+    </section>
+   </main>
+</body>
+</html>
