@@ -1,0 +1,75 @@
+.btn {
+    border: 2px solid#0F2874;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+#btn-contacto {
+    background-color: rgb(35, 174, 209);
+}
+
+#btn-portafolio {
+    background-color: rgb(121, 178, 224);
+}
+
+header {
+    border-bottom: 2px solid cornflowerblue;
+    text-align: center;
+}
+
+main ul li span {
+    font-weight: 900px;
+}
+
+main ul {
+    list-style: none;
+    border: 2px solid#367af1 ;
+    border-radius: 5px;
+    background-color: #91BBDB;
+}
+main ul li {
+    border-bottom: 1px solid#000F1B;
+}
+main {
+    width:700px ;
+    margin: 0 auto;
+    border: 2px solid#189BFF;
+    border-radius: 4px;
+}
+.contenedor-btn {
+    border-top: 2px dashed #769de0;
+    padding: 8px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+img {
+    border: 10px solid #0F2874;
+    border-radius: 80px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ac {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+input[type="name"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="select"],
+input[type="textarea"]
+{
+    background-color: #BAD5E9;
+    width: 100%;
+    font-weight: 300;
+}
